@@ -59,12 +59,12 @@ export default function Home() {
         docs.docs.map((doc) => (
           <li key={doc.id} style={{ display: "flex" }}>
             <Link
-              href={`/${doc.data().id[0]}-${doc.data().id[0]}-${
-                doc.data().id[0]
+              href={`/${doc.data().id[0]}-${doc.data().id[1]}-${
+                doc.data().id[2]
               }`}
               style={{ marginLeft: "3rem" }}
             >
-              {`${doc.data().id[0]}-${doc.data().id[0]}-${doc.data().id[0]}`}
+              {`${doc.data().id[0]}-${doc.data().id[1]}-${doc.data().id[2]}`}
             </Link>
             <Button
               onPress={(e) => deleteRoom(e, doc)}
