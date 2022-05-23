@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "utilities/icons/Delete.tsx"  ],
   "exclude": [
     "node_modules"
   ]
